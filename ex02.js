@@ -1,5 +1,4 @@
-alert("Mensagem de alerta no script externo")
+var quant = parseFloat(prompt("Digite a quantidade a ser convertida"))
 
-prompt("Entrada de dados em script")
-
-confirm("Confirmação em script externo")
+alert("A convers찾o desta quantidade de real para d처lar fica: " + (quant / 5.43))
+alert("A convers찾o desta quantidade de d처lar para real fica: " + (quant * 5.43))
